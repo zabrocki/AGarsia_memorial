@@ -1,0 +1,59 @@
+Dear Jennifer and Mike,
+
+First let me introduce myself. I took over from Mark Wilson and am serving a 1-year term as interim editor-in-chief for the AMS Notices.
+
+Thank you for submitting
+
+  A memorial tribute Adriano Garsia (1928--2024)
+  by Jennifer Morse and Mike Zabrocki
+
+to the AMS Notices. I definitely want to see this published in the Notices. Looking at earlier correspondence, Mark wrote:
+
+    Under my new regime, memorial articles in Notices will be shorter
+    than in the past. ... We want to focus on the human interest
+    side, with detailed discussion of research going elsewhere,
+    e.g. Bull. AMS.
+
+I am largely in agreement with Mark's philosophy, in the sense that memorial articles should not be research articles. At the same time, I think that a memorial article should spend a page or two giving the general, non-specialist, reader of the Notices an idea of the research accomplishments of the person being memorialized. Instead, what is included in the current version are repeated keywords that convey little to people not in the area.
+And I'll note that the reader doesn't even find out the general area of Garsia's research until the very end of page 1, where it says "Adriano’s research career left its mark across several areas, beginning in ergodic theory, moving into probability, and then finding a home in algebraic combinatorics in the 1970s."
+That's fine, but should probably be in the first or second paragraph.  The immediately following sentence says "His name is attached to landmark results such as the Garsia- Milne involution principle, the Garsia-Wachs algorithm for optimal binary search trees, and the Garsia-Haiman modules for the n!-conjecture."
+This conveys nothing to the 98% of Notices readers who don't happen to work in these fields.
+
+Further, when reading the various tributes, while I appreciate their heartfelt nature and how strongly Garsia affected the lives of all those he touched, the primary aim of a memorial article is to tell a life story, to inform the Notices' readership about this wonderful person and their contributions to our mathematical community.
+Yes, as Mark proposed, this can/should include human interest material; but at the same time, it is not the print equivalent of a memorial service where relatives and friends and colleagues each say a few words about their personal experiences with a person who they know and love to an audience who knew the person. So while the final paragraph of the first section is fine, having similar sentiments repeated in every section is too much.
+
+I will also mention that a number of the sections seem to be as much about the person writing the memorial as they are about Garsia. And most of them are too long.
+
+So here is what I suggest, but I emphasize that this is a discussion, so feel free to make counter-suggestions or push back with reasons why what I've suggested should be modified:
+
+(1) Each contributors' material be shortened to be at most one column (half a page). I suggest this be done by reading what's currently written and keeping the best material, by which I mean the material that will of the most interest to readers of the Notices who have never previously heard of Dr Garsia and who want to know why they should find his life and work to be of interest.
+
+(2) In particular, since many of the contributions include may human-interest items. Pick out the one, or maybe two, that resonate the most, and discard the others.
+
+(3) Compare the contributions side-by-side and eliminate repetitive material. In particular, variants of "he was a wonderful person."
+
+(4) This will free up space to do the following:
+* After the current paragraph 1, add a paragraph or two with a brief, even if vague, description of Garsia's field(s) and work.
+* Move the current paragraphs 2 and 3 to the end of the Introduction
+* Add a 1 to 2 page section entitled something like "An Overview of the Mathematical Work of Adriano Garsia". This section should be aimed at mathematicians who do not work in Garsia's field(s) of expertise, but who are interested in learning some actual mathematics. This would include references to anywhere from 3 to 6 of Garsia's most important papers/books, which would be included in a bibliography.
+
+When you've completed a revision, please upload it to
+
+https://ams.msp.org/uploadrev.php?p_id=130389&cr=F313F1B255
+
+You will need to upload at the same time a PDF or text file with a summary of changes.
+
+I look forward to working with you so that we can get a great memorial article into the Notices.
+
+Best wishes,
+Joe
+
+---
+Joseph H Silverman
+AMS Notices Interim Editor-in-Chief
+Professor of Mathematics, Brown University
+
+
+---
+Sent via EditFlow by
+Joseph H. Silverman <notices-ed@amsjournals.org>
