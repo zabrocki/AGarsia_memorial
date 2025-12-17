@@ -153,16 +153,53 @@ mentor, and friend.
 Space for more on Adriano's math
 
 \begin{enumerate}
-\item in ergodic theory he is often remembered for a
+\item In ergodic theory he is often remembered for a
 three line proof of an inequality due to Hopf.
 This proof surprised many in the field because earlier proofs
 of this result were 50 pages long. A consistent experience
 that we observed when he did mathematics is that he would often reprove
 results with his own understanding of the mathematics.
 
-\item Garsia entropy and Garsia number
-{\tt https://arxiv.org/abs/1912.10987}
-{\tt https://arxiv.org/abs/2303.07785}
+\item For a base $\beta > 1$ and for a fixed $n$
+(generally not an integer),
+the distribution
+\[
+S_n = \sum_{k=1}^{n} \epsilon_k \beta^{-k}
+\]
+with $\epsilon_k \in \{0,1\}$ are known as $\beta$
+expansions.  For most values of $\beta$,
+there are $2^n$ distinct values of
+$S_n$, but for some algebraic
+numbers there are overlaps.  One can then
+define a measure of how big this overlap is
+by computing
+\[
+\lim_{n \rightarrow \infty} \frac{H(S_n)}{n}
+\]
+where $H(X)$ is the Shannon entropy of the random
+variable $X$.  This is known as the {\it Garsia entropy}
+of $\beta$ which is denoted $H(\beta)$ and it plays a
+central role in understanding the Bernoulli convolution
+\[
+\nu_\beta = \sum_{\epsilon_k \in \{0,1\}}
+\delta_{\sum \epsilon_k \beta^{-k}}~.
+\]
+
+For some algebraic numbers, there are heavy overlaps
+in this distribution (it is singular),
+$H(\beta) < \log 2$ and all of the
+Galois conjugates of $\beta$ are inside the unit circle;
+these are known as {\it Pisot numbers}.  For other
+algebraic numbers, the overlaps do not accumulate
+in the Bernoulli convolution (it is absolutely continuous),
+$H(\beta) = \log 2$
+and the Galois conjugates lie outside of the unit
+circle.  These are known as {\it Garsia numbers}.
+What is not understood, those numbers for which
+all of the Galois conjugates lie on the unit circle.
+These numbers are known as {\it Salem numbers} and
+their behavior with respect to the Garsia entropy and
+the Bernoulli convolution is still open.
 
 \item His best known result in real and functional analysis
 is known as the Garsia--Rodemich--Rumsey inequality.
@@ -181,7 +218,9 @@ combinatorics was looked down upon by mathematicians
 working in fields with a higher `stature'
 (more abstract, more powerful generality).
 Adriano was attracted by the beauty and simplicity
-and he loved to work in a style that after many
+of the results that he could prove by aiming towards
+explanations that were elementary.
+He loved to work in a style that after many
 years of results he described by coining the portmanteau
 of `manipulatorics' from the words
 `manipulation' and `combinatorics.'
