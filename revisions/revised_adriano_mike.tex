@@ -144,7 +144,7 @@ and all conjugates strictly outside the unit circle.
   \begin{wrapfigure}{r}{0.34\textwidth}
     \centering
     \includegraphics[width=\linewidth]{../images/mike.jpeg}
- {\footnotesize Mike and Adriano}
+ {\footnotesize Mike and Adriano on a Roman street}
 \end{wrapfigure}
 
 
@@ -184,8 +184,6 @@ mathematics, stripping away clutter until the logic of a theorem
 seemed not just clear, but inevitable. 
 This talent brought him true joy
 and he published several books, including two coauthored with \"Omer E\u{g}ecio\u{g}lu in his nineties.
-
-
 
 In the mid--1970s, Adriano’s research trajectory shifted when Alain Lascoux visited UCSD and 
 sold him on the beauty of combinatorics. At the time, and to some extent still today, combinatorics was often looked 
@@ -235,23 +233,6 @@ $S_n$-representations via the Frobenius map,
 
 Garsia proposed to construct an underlying representation-theoretic
 object starting from a Schur positive symmetric function.
-%He reformulated Macdonald’s positivity conjecture
-%as one of Schur positivity by introducing the 
-%{\it modified Macdonald polynomials},
-%\[
-%H_\mu(x;q,t) = \sum_{\lambda} K_{\lambda\mu}(q,t)\, s_\lambda ,
-%\]
-%wherein the conjectured positive coefficient arise as Schur expansion
-%coefficients. He proposed that the conjectured
-%($q$ and $t$) Schur-positivity of this symmetric function 
-%could be explained by constructing an underlying
-%representation-theoretic object. 
-%The conjecture $K_{\lambda\mu}(q,t)\in \mathbb N[q,t]$ was thus recast as the problem
-%of realizing these polynomials as Frobenius images of {\it bigraded} $S_n$-modules
-%$D_\mu=\bigoplus_{r,d} D_\mu^{r,d}$:
-%
-%%
-%
 He introduced the {\it modified Macdonald polynomials},
 \[
 H_\mu(x;q,t) = \sum_{\lambda} K_{\lambda\mu}(q,t)\, s_\lambda \,,
@@ -302,7 +283,8 @@ all derivatives of a polynomial alternant $\Delta_\mu$.
 This space is an $S_n$ module under the diagonal action
 $x_i \mapsto x_{\sigma(i)}, y_i \mapsto y_{\sigma(i)}$
 and conjectured that the dimension of $D_\mu$ is $n!$
-and whose Frobenius image is a Macdonald polynomial.
+and the Frobenius image is a Macdonald polynomial.
+This became known as the $n!$-conjecture.
 %However, it would be more than a decade before these would be established.
 
 %Procesi offered a plan of attack that involved giving another interpretation for ${\tilde H}_{\mu}$ in terms
@@ -311,164 +293,81 @@ and whose Frobenius image is a Macdonald polynomial.
 %to realize this program and to settle the $n!$ conjecture.
 %in \cite{haiman1}.
 
-Their subsequent efforts quickly led them to a vastly bigger picture
-given by the space where the determinants $\Delta_\mu$ are its minimal alternants.
-This is the space of {\it diagonal harmonics},
-$$
- \text{DH}_n=
+Armed with this conjecture, they expected to prove
+that the $K_{\lambda\mu}(q,t)$ are in $\mathbb{N}[q,t]$
+within a matter of months.
+Instead, Haiman's contributions
+indicated a more complex picture where
+the determinants $\Delta_\mu$ are elements
+of the bigraded
+$S_n$ module of the {\it diagonal harmonics},
+\begin{align*}
+ \text{DH}_n&=
  \big\{
  P(x;y)\in {\mathbb Q}[x_1,\ldots ,x_n;y_1,\ldots,y_n]
- \,:\,
-$$
-$$
-  \sum_{i=1}^n\partial_{x_i}^r\partial_{y_i}^s
+ \,:\,\\
+  &\sum_{i=1}^n\partial_{x_i}^r\partial_{y_i}^s
  P(x;y)=0\,\,\, \forall\,\,\,  r+s>0
- \big\},
- $$
- a bigraded module under the diagonal $S_n$-action.
+ \big\}~.
+\end{align*}
 
-A prolific data gathering period ensued in the 90's.
-Fueled by computer experimentation, Garsia and Haiman amassed identities 
-that brought forth
-%solidified a connection to 
-the most familiar combinatorial structures  of the time.
-%to parking functions was confirmed in the strongest possible manner.
-For instance, the dimension of $\text{DH}_n$ is $(n+1)^{n-1}$,
-counting parking functions on $n$ cars,
-and the dimension of the submodule of  $\text{DH}_n$ affording the
-sign representation is the $n$th Catalan number ${1\over n+1}{2n \choose n}$.
-%and strongly suggested that the Frobenius characteristic
-%of $\text{DH}_n$ could be given a purely
-%combinatorial description.
-% in terms of the most familiar combinatorial structures  of the time.
-%The close study of $\mathcal F({\rm DH}_n,x;q,t)$ led Garsia
-%and Haiman to a explicit formula for the Frobenius
-%characteristic of $DH_n$ in terms of the ${\tilde H}_{\mu}$.
-
-While they defined $D_\mu$ precisely so that modified Macdonald polynomials are $\mathcal F(D_\mu)$, 
-the symmetric function $\mathcal F(\text{DH}_n)$ was a new mystery to be reckoned with.
-%Garsia and Haiman conjectured
-%\begin{equation}
-%\label{DHinMac}
-%\mathcal F(\text{DH}_n)=\sum _{\mu}  \tilde H_{\mu}(x;q,t) d_{\mu}(q,t)
-%\end{equation}
-%for certain explicit rational functions $d_{\mu}(q,t)$. % \cite{GaHa}.
-%Soon after,  
-It was in this pursuit that Garsia and Bergeron uncovered
-the importance of an operator $\nabla$ that takes $\tilde H_\mu$ as its eigenfunctions.
+Fueled by computer experimentation, Garsia and Haiman amassed identities
+and worked to connect the representation theory, combinatorics
+and the symmetric function expressions involving Macdonald polynomials.
+It was in this pursuit that Garsia and Fran\c{c}ois
+Bergeron defined an operator
+$\nabla$ on symmetric functions that takes the $\mathcal{F}(D_\mu)$
+as its eigenfunctions.
 They conjectured that the Frobenius image of diagonal harmonics
-%\eqref{DHinMac} 
 can be expressed compactly as
-$\nabla e_n$ where $e_n$ is the $n$th elementary
+$\nabla(e_n)$ where $e_n$ is the $n$th elementary
 symmetric function $\sum_{i_1<\cdots<i_n}x_{i_1}\cdots x_{i_n}$.
-The $\nabla$ operator became a mainstay in the theory of Macdonald polynomials
-and in fact was later discovered by be but one of a family of operators
-deeply connected to the elliptic Hall algebra.
+The dimension of $\text{DH}_n$ was conjectured to count parking functions on $n$ cars,
+$(n+1)^{n-1}$ while
+the bigraded dimension of the submodule of $\text{DH}_n$ affording the
+sign representation was defined to be the
+$q,t$-Catalan polynomial, $C_n(q,t)$, since
+this polynomial has the property that $C_n(1,1)$ is
+the $n^{th}$ Catalan number ${1\over n+1}{2n \choose n}$.
+The $\nabla$ operator encoded all of this information
+in symmetric function identities
+and it was much later discovered to
+have broader connections to knot theory and
+constructions within algebra such as
+the elliptic Hall algebra and double affine Hecke algebra.
 
-The pair developed {\it science fiction} around the theory of Macdonald polynomials
-where $\nabla$ was featured prominently.
+In 2000 Jim Haglund found a long sought
+after piece of a combinatorial formula for $C_n(q,t)$
+by defining the `bounce' statistic on Dyck paths.
+The `area' of a Dyck path
+was already a familiar statistic on
+Dyck paths and together formed the conjecture
+\[
+C_n(q,t) =
+\sum_{\pi} q^{{\rm area}(\pi)} t^{{\rm bounce}(\pi)}
+\]
+where the sum is over all Dyck paths $\pi$ of
+size $n$.
+Garsia and Haglund worked together
+over that summer connecting the symmetric function identities
+with the combinatorics of Dyck paths and to prove this
+formula.  Simultaneously, Mark Haiman was finalizing
+his algebraic geometric program for proving the $n!$-conjecture.
 
-
-{\bf plethystic }
-
-{\bf insert polynomiality result}
-
-
-
-%Garsia and Bergeron introduced the
-%operator $\nabla$, designed to take $\tilde H_\mu$ as
-%its eigenfunctions, and proved that the right side
-%of \eqref{DHinMac} can be expressed compactly as
-%%$\nabla e_n$ where $e_n$ is the $n$th elementary
-%symmetric function $\sum_{i_1<\cdots<i_n}x_{i_1}\cdots x_{i_n}$.
-%The $\nabla$ operator plays an important role in many aspects of this theory.
-%{\bf elliptic Hall algebra}
-
-%During the extended period when \eqref{DHinMac} was
-%a conjecture, 
-
-%Haiman spent a decade putting together new algebro-geometric tools,
-%culminating in proofs of these conjectures using the geometry of
-%Hilbert schemes of points in $\mathbb C^2$.
-
-A big breakthrough in the study of $\text{DH}_n$ was made
-when Haiman proved \eqref{DHinMac}
-using the interpretation of ${\tilde H}_{\mu}$
-in terms of the Hilbert scheme  and attracted the attention
-of algebraic geometers to the space of diagonal harmonics and
-the modified Macdonald polynomials: 
-%For later reference, we summarize Haiman's in symbols:
-\begin{equation}
-\label{e nabla DH}
-\mathcal F(\text{DH}_n)=\nabla e_n.
-%= \mathfrak p_{1}^{n+1/n}1,
-\end{equation}
-%where the  $\mathfrak p_{1}^{n+1/n}$ is the operator mentioned earlier.
-
-{\bf talk about rational stuff}
-
-%Haiman's theorem was exceedingly lucrative, stimulating
-%many surprising directions of research.  Nonetheless,
-%many of the conjectures that arose along the way still
-%remain as major open problems.
-%In fact, a fundamental piece of the picture is
-%still missing; there is no explicit representation theoretic
-%grasp on the diagonal harmonics module.
-%Although \eqref{e nabla DH} gives an
-%explicit formula for its Frobenius characteristic,
-%it involves unmanageable rational functions of
-%$q$ and $t$, and in no way exposes
-%a decomposition into irreducible components.
-%
-A problem of central importance is to understand
-the Schur expansion of \eqref{e nabla DH}.  Descriptions for
-the coefficients $C_\lambda(q,t)\in\mathbb N[q,t]$ arising in
-\begin{equation}
-\label{DH2schur}
-\mathcal F(\text{DH}_n) = \sum_\lambda C_\lambda(q,t) \, s_\lambda(x)
-\end{equation}
-have long been sought.  The earliest investigations of diagonal harmonics
-by Garsia and Haiman gave hints to this end.  For example, it was
-clear that $C_{1^n}(1,1)$ counted the number of Dyck paths
-since the dimension of the submodule of  $\text{DH}_n$ affording the sign representation
-is the $n$th Catalan number.
-The natural question became one of finding a
-pair of non-negative integers $(a(\pi),d(\pi))$ associated
-in some way to a Dyck path $\pi$ so that
-$$
-C_{1^n}(q,t) = \sum_{\pi} q^{a(\pi)}\, t^{d(\pi)}\,.
-$$
-
-A formula in this spirit eluded researchers for many years
-until Haglund brought forth such a candidate.  It was 
-Garsia and Haglund together who established this formula.
-To date, the remainder of this problem stands wide open.
-An important step towards understanding the general case is the
-{\it Shuffle conjecture}, which gives a combinatorial prediction for the coefficient of a
-monomial in $\nabla e_n$, expressed in terms of simple $q,t$-weights
-associated to parking functions.
-
-Because of the relationship between the character of $\text{DH}_n$
-and classical combinatorial functions,  the
-study of $\nabla e_n$ and the combinatorics of $\text{DH}_n$
-has been a central topic of
-research in algebraic combinatorics over the last $20$ years.
-There are several books on this topic, and it has been
-the subject of over one hundred research articles.
-Many of these articles involve the $\nabla$ operator and a variety of
-extensions of the Shuffle conjecture.
-
+The discoveries in $q,t$-combinatorics and
+representation theory are still extremely active.
 \begin{wrapfigure}{r}{0.33\textwidth}
   \centering
   \includegraphics[width=\linewidth]{../images/mathtalkwadriano.jpg}
   \caption*{\footnotesize His passion for math was contagious.}
 \end{wrapfigure}
-Yet more than any achievement, Adriano lived to pass on his infectious enthusiasm 
-for mathematics. Whether he was simplifying a 50-page proof in analysis or finding 
-the hidden symmetry in a partition, he believed that the most profound truths were 
+Adriano spent the following 24 years contributing his
+infectious enthusiasm for the field.
+He believed that the most profound truths were
 those that could be grasped with elegance and joy.
-
-\newpage 
+We asked some of his colleagues and students to
+share some of their memories of how he touched their
+lives and shaped their careers.
 
 \section*{Michelle Wachs}
 I was one of Adriano's first combinatorics students at UCSD in the mid-1970s. I met him during my second year of graduate school when I took his Real Analysis course. He was an extraordinary teacher, and since he was also renowned as a leading researcher in analysis, I hoped he might become my advisor in that field.  Before I even got up the courage to ask him, he invited me to his office to share  ideas he had about simplifying the proof of the 
